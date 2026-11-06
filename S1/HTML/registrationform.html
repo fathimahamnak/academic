@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+ <h2>Registration Form</h2>
+
+ <form method="POST">
+ <label>Full Name:</label>
+ <input type="text" name="name"  id=name >
+ <br><br>
+
+<label>Email:</label>
+<input type="email" name="email"  id=email>
+<br><br>
+
+<label>Password:</label>
+<input type="password" name="password"  id=password>
+<br><br>
+
+<label>Age:</label>
+<input type="age" name="age" id=age>
+<br><br>
+
+<label>Date of Birth:</label>
+<input type="date" name="dob" id=dob>
+<br><br>
+
+<label>Hobbies:</label>
+<input type="checkbox" name="hobby" value="reading"> Reading
+<input type="checkbox" name="hobby" value="music"> Music
+ <input type="checkbox" name="hobby" value="sports"> Sports
+<br><br>
+
+<label>Gender:</label> 
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+<br><br>
+
+<label>Course:</label>
+<select name="course">
+<option>MCA</option>
+<option>MBA</option>
+<option>BCOM</option>
+<br><br>
+
+<input type="submit" value="Register">
+<input type="reset" value="Clear">
+
+</form>
+<script>
+ 
+function validateForm()
+{
+var name=document.getElementById("name").values;
+var email=document.getElementById("email").values;
+var password=document.getElementById("password").values;
+var age=document.getElementById("age").values;
+var dob=document.getElementById("dob").values;
+var hobbies=document.getElementByName("hobby").values;
+var gender=document.getElementByName("gender").values;
+var course=document.getElementByName("course").values;
+var selected=false;
+var msg =" ";
+
+if(name==" ")
+{
+msg +="enter your name\n";
+}
+
+if(email==" ")
+{
+msg +="enter your email\n";
+}
+
+if(password==" ")
+{
+msg +="enter your password\n";
+}
+
+if(age==" ")
+{
+msg +="enter your age\n";
+}
+
+if(dob==" ")
+{
+msg +="enter your dob\n";
+}
+
+if (gender==" ")
+{
+msg +="enter your gender\n";
+}
+
+if (course==" ")
+{
+msg +="enter your course\n";
+}
+
+for(var i=0;i<hobby.length;i++){
+if( hobby[i]checked)
+{
+selected.true
+}
+
+
+if(msg != " ")
+{
+   alert(msg);
+   return false;
+}
+else
+{
+     alert("Registration Successfull");
+     return true;
+}
+
+
+
+
+
+}
+</script>
+</body>
+</html>
