@@ -1,0 +1,145 @@
+--- Binary Search Tree ---
+1. Insert
+2. Delete
+3. Search
+4. Inorder
+5. Preorder
+6. Postorder
+7. Exit
+Enter choice: 1
+Enter value to insert: 20
+
+--- Binary Search Tree ---
+1. Insert
+2. Delete
+3. Search
+4. Inorder
+5. Preorder
+6. Postorder
+7. Exit
+Enter choice: 1
+Enter value to insert: 10
+
+--- Binary Search Tree ---
+1. Insert
+2. Delete
+3. Search
+4. Inorder
+5. Preorder
+6. Postorder
+7. Exit
+Enter choice: 1
+Enter value to insert: 55
+
+--- Binary Search Tree ---
+1. Insert
+2. Delete
+3. Search
+4. Inorder
+5. Preorder
+6. Postorder
+7. Exit
+Enter choice: 1
+Enter value to insert: 32
+
+--- Binary Search Tree ---
+1. Insert
+2. Delete
+3. Search
+4. Inorder
+5. Preorder
+6. Postorder
+7. Exit
+Enter choice: 3
+Enter value to search: 55
+55 found in the BST.
+
+--- Binary Search Tree ---
+1. Insert
+2. Delete
+3. Search
+4. Inorder
+5. Preorder
+6. Postorder
+7. Exit
+Enter choice: 3
+Enter value to search: 43
+43 not found in the BST.
+
+--- Binary Search Tree ---
+1. Insert
+2. Delete
+3. Search
+4. Inorder
+5. Preorder
+6. Postorder
+7. Exit
+Enter choice: 4
+Inorder: 10 20 32 55
+
+--- Binary Search Tree ---
+1. Insert
+2. Delete
+3. Search
+4. Inorder
+5. Preorder
+6. Postorder
+7. Exit
+Enter choice: 5
+Preorder: 20 10 55 32
+
+--- Binary Search Tree ---
+1. Insert
+2. Delete
+3. Search
+4. Inorder
+5. Preorder
+6. Postorder
+7. Exit
+Enter choice: 6
+Postorder: 10 32 55 20
+
+--- Binary Search Tree ---
+1. Insert
+2. Delete
+3. Search
+4. Inorder
+5. Preorder
+6. Postorder
+7. Exit
+Enter choice: 2
+Enter value to delete: 15
+15 not found.
+
+--- Binary Search Tree ---
+1. Insert
+2. Delete
+3. Search
+4. Inorder
+5. Preorder
+6. Postorder
+7. Exit
+Enter choice: 2
+Enter value to delete: 10
+
+--- Binary Search Tree ---
+1. Insert
+2. Delete
+3. Search
+4. Inorder
+5. Preorder
+6. Postorder
+7. Exit
+Enter choice: 4
+Inorder: 20 32 55
+
+--- Binary Search Tree ---
+1. Insert
+2. Delete
+3. Search
+4. Inorder
+5. Preorder
+6. Postorder
+7. Exit
+Enter choice: 7
+mca2619@linuxserver:~/hamna/hamna$
