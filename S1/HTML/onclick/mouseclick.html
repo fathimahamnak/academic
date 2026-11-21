@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mouse Over Event</title>
+</head>
+<body>
+
+<h2>Move the mouse over the image</h2>
+
+<div onmouseover="newContent()" onmouseout="changeContent()">
+
+<img id="myImage" src="C:/Users/MCA11/Desktop/hamna.wp/onclick/image1.jpg" width="200" height="150">
+
+<h3 id="myText">This is the Original image</h3>
+
+</div>
+
+<script>
+function newContent()
+{
+document.getElementById("myImage").src=
+"C:/Users/MCA11/Desktop/hamna.wp/onclick/image2.webp";
+
+document.getElementById("myText").innerHTML=
+"This is the new image";
+}
+
+function changeContent()
+{
+document.getElementById("myImage").src=
+"C:/Users/MCA11/Desktop/hamna.wp/onclick/image1.jpg"
+
+document.getElementById("myText").innerHTML=
+"This is the Original image";
+}
+</script>
+
+</body>
+</html>
